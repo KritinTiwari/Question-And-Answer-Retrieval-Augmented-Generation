@@ -1,4 +1,4 @@
-# 📚 RAG: High-Precision Document QA Intelligence
+# 📚 RAG: High-Precision Document QA Intelligence.
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
