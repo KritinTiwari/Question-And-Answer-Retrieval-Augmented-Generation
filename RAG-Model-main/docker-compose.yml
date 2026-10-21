@@ -1,0 +1,14 @@
+services:
+  nexus-rag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nexus_rag_app
+    ports:
+      - "8501:8501"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - DEFAULT_MODEL=gemini-1.5-flash
+    restart: unless-stopped
+    volumes:
+      - ./storage:/app/storage
