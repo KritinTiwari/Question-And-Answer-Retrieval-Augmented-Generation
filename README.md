@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 📚 NexusRAG: High-Precision Document QA Intelligence
+=======
+# 📚 RAG: High-Precision Document QA Intelligence.
+>>>>>>> 16af5da68a623e68d8420510127101a8d2b0697e
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -59,7 +63,11 @@ NexusRAG employs a multi-tiered accuracy defense architecture:
 - **Dual Embedding Engines**:
   - *Google text-embedding-004* (State-of-the-art 768-dim precision with zero local overhead - Recommended).
   - *HuggingFace all-MiniLM-L6-v2* (Local offline embeddings).
+<<<<<<< HEAD
 - **Flagship Reasoning Models**: Seamlessly toggle between `gemini-3.8-flash`, `gemini-1.5-pro` (maximum reasoning capability), and `gemini-2.0-flash`.
+=======
+- **Flagship Reasoning Models**: Seamlessly toggle between `gemini-1.5-flash`, `gemini-1.5-pro` (maximum reasoning capability), and `gemini-2.0-flash`.
+>>>>>>> 16af5da68a623e68d8420510127101a8d2b0697e
 - **Multi-Turn Conversational Memory**: Remembers context across questions for natural follow-up inquiries.
 - **Starter Question Prompts**: Instant 1-click exploratory queries (Summarize, Extract key metrics, List limitations).
 - **Export Transcripts**: One-click JSON export of your complete QA dialogue and citations.
@@ -71,8 +79,13 @@ NexusRAG employs a multi-tiered accuracy defense architecture:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/KritinTiwari/KritinTiwari.git
-cd RAG-Model
+## 🚀 Quick Start (Local Setup)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/KritinTiwari/Question-And-Answer-Retrieval-Augmented-Generation.git
+cd Question-And-Answer-Retrieval-Augmented-Generation/RAG-Model-main
 ```
 
 ### 2. Create and Activate Virtual Environment
