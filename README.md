@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# 📚 NexusRAG: High-Precision Document QA Intelligence
+# 📚 RAG: High-Precision Document QA Intelligence
 =======
 # 📚 RAG: High-Precision Document QA Intelligence.
 >>>>>>> 16af5da68a623e68d8420510127101a8d2b0697e
