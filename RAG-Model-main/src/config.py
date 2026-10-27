@@ -7,12 +7,13 @@ load_dotenv()
 
 # Available Gemini models for question answering
 AVAILABLE_MODELS = [
+    "gemini-3.5-flash-lite",
     "gemini-3.8-flash",
     "gemini-1.5-pro",
     "gemini-3.8-flash",
 ]
 
-DEFAULT_MODEL = os.getenv("DEFAULT_MODEL", "gemini-3.8-flash")
+DEFAULT_MODEL = os.getenv("DEFAULT_MODEL", "gemini-3.5-flash-lite")
 
 # Embedding options
 EMBEDDING_OPTIONS = {
