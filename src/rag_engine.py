@@ -45,7 +45,7 @@ def format_context_excerpts(scored_docs: List[Tuple[Document, float]]) -> str:
 
 
 def get_llm(
-    model_name: str = "gemini-2.5-flash",
+    model_name: str = "gemini-3.8-flash",
     api_key: Optional[str] = None,
     temperature: float = 0.1
 ) -> ChatGoogleGenerativeAI:
@@ -83,7 +83,7 @@ def answer_question(
     query: str,
     scored_docs: List[Tuple[Document, float]],
     chat_history_tuples: Optional[List[Tuple[str, str]]] = None,
-    model_name: str = "gemini-2.5-flash",
+    model_name: str = "gemini-3.8-flash",
     api_key: Optional[str] = None,
     temperature: float = 0.1
 ) -> Dict[str, Any]:
